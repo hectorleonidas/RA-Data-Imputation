@@ -22,28 +22,20 @@ El proyecto se enfoca en datos de **temperatura** y **precipitación** de estaci
 ---
 
 ## 📂 Estructura del repositorio
-├── Analisis exploratorio/ # Notebooks de análisis de datos y visualización
-├── Mapas/ # Generamiento de mapas para visualizar cantidad y distancia entre estaciones
-├── Matrices/ # Análisis de correlación de spearman y pruebas de normalidad para la selección de estaciones
-├── Experimento/ # Scripts para creación, imputación de vacíos y generamiento de gráficos
-├── KNIME/ # Archivos para flujo de trabajo en KNIME, donde se realizó la creación de archivos .csv con las estaciones seleccionadas para el experimento
+``` your tree 
+├── notebooks/ # Notebooks de análisis y visualización
+├── Análisis exploratorio/ # Análisis de los datos trabajados
+├── Mapas/ # Creación de mapas de ubicación de las estaciones
+├── Matrices/ # Calculo de matrices de correlación y pruebas de normalidad para seleccionar las estaciones
+├── experimento/ # Scripts para creación e imputación de vacíos y calculos de estadisticas para evaluar las técnicas de imputación
+├── knime/ # Archivos para flujo de trabajo en KNIME, donde se crean los archivos .csv con las estaciones seleccionadas
 └── README.md # Este archivo
+```
 
-
-> **Nota:** Los notebooks contienen comentarios detallados en cada línea para facilitar su comprensión.
-
----
-
-> > **Nota:**  
-> Algunos archivos CSV que contienen datos pesados no están incluidos en el repositorio por limitaciones de tamaño.  
-> Para reproducir los análisis, es necesario obtenerlos a partir de las fuentes originales o generar los datos mediante los scripts proporcionados.
-
-## 🖼️ Ejemplos de salidas
-
-### Mapa de estaciones
-![Experimento](Temperatura Máxima/Configuración Experimental (Generar Gráfico)/ts_m_015_a_ii.svg)
-
-*(La imágen anterior es un ejemplo generado por los notebooks del proyecto.)*
+**Nota:**  
+Los notebooks contienen comentarios detallados en cada línea para facilitar su comprensión.  
+Algunos archivos CSV que contienen datos pesados no están incluidos en el repositorio por limitaciones de tamaño.  
+Para reproducir los análisis, es necesario obtenerlos a partir de las fuentes originales o generarlos mediante los scripts proporcionados.
 
 ---
 
@@ -54,12 +46,13 @@ El proyecto se enfoca en datos de **temperatura** y **precipitación** de estaci
 - Librerías recomendadas:
   - `numpy`
   - `pandas`
+  - `folium`
   - `matplotlib`
   - `seaborn`
   - `geopandas`
   - `scikit-learn`
-  - `xarray`
-  - `netCDF4`
+  - `sklearn.metrics`
+  - `scipy.stats`
 
 ## 🚀 Uso paso a paso
 
