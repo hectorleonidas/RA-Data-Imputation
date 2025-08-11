@@ -41,12 +41,9 @@ El proyecto se enfoca en datos de **temperatura** y **precipitación** de estaci
 ## 🖼️ Ejemplos de salidas
 
 ### Mapa de estaciones
-![Mapa de estaciones](results/ejemplo_mapa_estaciones.png)
+![Experimento](Temperatura Máxima/Configuración Experimental (Generar Gráfico)/ts_m_015_a_ii.svg)
 
-### Matriz de correlación
-![Matriz de correlación](results/ejemplo_matriz_correlacion.png)
-
-*(Las imágenes anteriores son ejemplos generados por los notebooks del proyecto.)*
+*(La imágen anterior es un ejemplo generado por los notebooks del proyecto.)*
 
 ---
 
@@ -74,16 +71,16 @@ El proyecto se enfoca en datos de **temperatura** y **precipitación** de estaci
    Ejecutar los notebooks en el siguiente orden:
 
 2. Exploración y análisis de datos (notebooks/)
-    Cálculo de matrices de correlación
-    Generación de mapas de estaciones
-    Creación de vacíos y ejecución de imputación (experimento/)
+  - Cálculo de matrices de correlación
+  - Generación de mapas de estaciones
+  - Creación de vacíos y ejecución de imputación (experimento/)
 
 3. (Opcional) Usar KNIME:
-    Abrir los flujos en la carpeta knime/ para reproducir la preparación de datos.
+  - Abrir los flujos en la carpeta knime/ para reproducir la preparación de datos.
 
 📊 Experimento de imputación
-En experimento/ se encuentran scripts que:
-Simulan vacíos continuos y aleatorios.
-Rellenan vacíos usando tecnicas de imputación aprovechando los datos de reanálisis.
-Comparan distintas técnicas de imputación.
-Evalúan precisión del uso de datos de reanálisis como alternativa en función del tipo de vacío.\
+  - En experimento/ se encuentran scripts que:
+  - Simulan vacíos continuos y aleatorios.
+  - Rellenan vacíos usando tecnicas de imputación aprovechando los datos de reanálisis.
+  - Comparan distintas técnicas de imputación.
+  - Evalúan precisión del uso de datos de reanálisis como alternativa en función del tipo de vacío.\
