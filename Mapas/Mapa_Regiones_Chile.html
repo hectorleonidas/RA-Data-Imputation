@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01f6c759cd8092374f570430809fa171 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_01f6c759cd8092374f570430809fa171" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_01f6c759cd8092374f570430809fa171 = L.map(
+                "map_01f6c759cd8092374f570430809fa171",
+                {
+                    center: [-20.782932, -70.286585],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2823c76a78d9f07be7cf30deef04f60b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2823c76a78d9f07be7cf30deef04f60b.addTo(map_01f6c759cd8092374f570430809fa171);
+        
+    
+            var marker_2a851f66b09af5c4f772cc2c64b3f406 = L.marker(
+                [-18.478253, -70.312599],
+                {}
+            ).addTo(map_01f6c759cd8092374f570430809fa171);
+        
+    
+        var popup_41196c8afe29fe89691373d2b8c72201 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c29059f1ebb11bdca9c3f28e77e8648c = $(`<div id="html_c29059f1ebb11bdca9c3f28e77e8648c" style="width: 100.0%; height: 100.0%;">Arica y Parinacota</div>`)[0];
+                popup_41196c8afe29fe89691373d2b8c72201.setContent(html_c29059f1ebb11bdca9c3f28e77e8648c);
+            
+        
+
+        marker_2a851f66b09af5c4f772cc2c64b3f406.bindPopup(popup_41196c8afe29fe89691373d2b8c72201)
+        ;
+
+        
+    
+    
+            var marker_e369d722868c2f1815a08f42bf68b170 = L.marker(
+                [-20.214065, -70.152465],
+                {}
+            ).addTo(map_01f6c759cd8092374f570430809fa171);
+        
+    
+        var popup_e0102bc609feffbb7e655d04e355ceba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feec96e0d9160ae2540539266e917cb1 = $(`<div id="html_feec96e0d9160ae2540539266e917cb1" style="width: 100.0%; height: 100.0%;">Tarapacá (Iquique)</div>`)[0];
+                popup_e0102bc609feffbb7e655d04e355ceba.setContent(html_feec96e0d9160ae2540539266e917cb1);
+            
+        
+
+        marker_e369d722868c2f1815a08f42bf68b170.bindPopup(popup_e0102bc609feffbb7e655d04e355ceba)
+        ;
+
+        
+    
+    
+            var marker_d363d394663c1e11505d4e07ca2b0ad5 = L.marker(
+                [-23.652363, -70.395401],
+                {}
+            ).addTo(map_01f6c759cd8092374f570430809fa171);
+        
+    
+        var popup_66d974a4e268afa3d874e2a618137d74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba0c78311250600a5bb965eef787d1e0 = $(`<div id="html_ba0c78311250600a5bb965eef787d1e0" style="width: 100.0%; height: 100.0%;">Antofagasta</div>`)[0];
+                popup_66d974a4e268afa3d874e2a618137d74.setContent(html_ba0c78311250600a5bb965eef787d1e0);
+            
+        
+
+        marker_d363d394663c1e11505d4e07ca2b0ad5.bindPopup(popup_66d974a4e268afa3d874e2a618137d74)
+        ;
+
+        
+    
+</script>
+</html>
