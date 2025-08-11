@@ -64,16 +64,16 @@ Para reproducir los análisis, es necesario obtenerlos a partir de las fuentes o
    Ejecutar los notebooks en el siguiente orden:
 
 2. Exploración y análisis de datos (notebooks/)
-  - Cálculo de matrices de correlación
-  - Generación de mapas de estaciones
-  - Creación de vacíos y ejecución de imputación (experimento/)
+    - Cálculo de matrices de correlación
+    - Generación de mapas de estaciones
+    - Creación de vacíos y ejecución de imputación (experimento/)
 
 3. (Opcional) Usar KNIME:
-  - Abrir los flujos en la carpeta knime/ para reproducir la preparación de datos.
+    - Abrir los flujos en la carpeta knime/ para reproducir la preparación de datos.
 
-📊 Experimento de imputación
-  - En experimento/ se encuentran scripts que:
-  - Simulan vacíos continuos y aleatorios.
-  - Rellenan vacíos usando tecnicas de imputación aprovechando los datos de reanálisis.
-  - Comparan distintas técnicas de imputación.
-  - Evalúan precisión del uso de datos de reanálisis como alternativa en función del tipo de vacío.\
+## 📊 Experimento de imputación
+    En experimento/ se encuentran scripts que:
+    - Simulan vacíos continuos y aleatorios.
+    - Rellenan vacíos usando tecnicas de imputación aprovechando los datos de reanálisis.
+    - Comparan distintas técnicas de imputación.
+    - Evalúan precisión del uso de datos de reanálisis como alternativa en función del tipo de vacío.
