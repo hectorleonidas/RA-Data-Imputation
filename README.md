@@ -6,7 +6,7 @@
 
 Flujo de trabajo en Python para **analizar datos de estaciones meteorológicas**, **visualizar correlaciones** y **realizar experimentos de imputación de datos** usando conjuntos de datos de reanálisis (CFSR, CFSv2).  
 
-El proyecto se enfoca en datos de **temperatura** y **precipitación** de estaciones en el **Norte de Chile**, generando vacíos **continuos** y **aleatorios** para evaluar el rendimiento de diferentes técnicas de imputación.
+El proyecto se enfoca en datos de **temperatura** y **precipitación** de estaciones en el **Norte de Chile**, generando vacíos **continuos** y **aleatorios** para evaluar el rendimiento de diferentes técnicas de imputación en conjunto con datos de reanálisis.
 
 ---
 
